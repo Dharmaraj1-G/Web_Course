@@ -1,0 +1,46 @@
+.Header{
+    display: flex; 
+    justify-content: space-between;
+
+}
+.menu ul{
+    display: flex; 
+    list-style: none;   
+}
+.menu ul li{
+    font-size: 20px;
+    margin: 0 20px 0 0;
+}
+.banner img{
+    width: 100%;
+}
+    
+.pbox{
+    width: 25%;
+    height: 200px;
+    background: #ccc;
+
+}
+.plis{
+    display: flex;
+    gap: 20px;    
+}
+.pbox img{
+    width: 100%;
+}
+.tredtxt{
+    text-align: center;
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+}
+.footer p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 0 30px 0;
+}
+.container{
+    max-width: 1000px;
+}
